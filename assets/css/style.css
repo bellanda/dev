@@ -137,7 +137,7 @@ h6 {
   padding-right: 30px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1450px) {
   #header {
     left: -300px;
   }
@@ -1097,7 +1097,7 @@ section {
   color: #eaebf0;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1450px) {
   #footer {
     position: static;
     width: auto;
@@ -1129,3 +1129,8 @@ a.whatsapp:hover {
   margin-right: 5px;
 }
 
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0882fc;
+}  
