@@ -137,7 +137,7 @@ h6 {
   padding-right: 30px;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1024px) {
   #header {
     left: -300px;
   }
@@ -150,6 +150,42 @@ h6 {
   .container-fluid {
     padding-left: 12px;
     padding-right: 12px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .hero-container {
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .hero-container {
+    margin-left: 170px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .hero-container {
+    margin-left: 270px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .hero-container {
+    margin-left: 370px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-container {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-container {
+    margin-left: 10px;
   }
 }
 
@@ -1097,7 +1133,7 @@ section {
   color: #eaebf0;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1024px) {
   #footer {
     position: static;
     width: auto;
@@ -1132,5 +1168,15 @@ a.whatsapp:hover {
 .link:hover {
   cursor: pointer;
   text-decoration: underline;
-  color: #0882fc;
+  color: #0882fc; 
 }  
+
+.cert-img {
+  width: 400px;
+}
+
+@media (max-width: 600px) {
+  .cert-img {
+    width: 250px;
+  }
+}
