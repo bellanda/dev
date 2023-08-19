@@ -1180,3 +1180,8 @@ a.whatsapp:hover {
     width: 250px;
   }
 }
+
+.language-select {
+  position: absolute;
+  top: -50px;
+}
