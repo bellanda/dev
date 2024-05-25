@@ -1178,7 +1178,8 @@ a.whatsapp:hover {
 }
 
 .cert-img {
-  width: 400px;
+  width: 500px;
+  height: auto;
 }
 
 @media (max-width: 600px) {
