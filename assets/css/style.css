@@ -1,27 +1,28 @@
-/**
-* Template Name: iPortfolio
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+:root {
+  --primary-color: #149ddd;
+  --secondary-color: #37b3ed;
+  --background-color: #f5f8fd;
+  --text-color: #272829;
+  --heading-color: #173b6c;
+  --accent-color: #24b47e;
+}
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/* Aplicando as variáveis */
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 a {
-  color: #149ddd;
-  text-decoration: none;
+  color: var(--primary-color);
 }
 
 a:hover {
-  color: #37b3ed;
-  text-decoration: none;
+  color: var(--secondary-color);
+}
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -31,6 +32,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 /*--------------------------------------------------------------
@@ -86,8 +88,13 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 200px;
+  height: 235px;
   border: 8px solid #2c2f3f;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
 }
 
 #header .profile h1 {
@@ -277,8 +284,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/gustavo-social.jpg") center;
-  background-size: auto;
+  /* background: url("../img/gustavo-social.jpg") center; */
+  background: url("../img/ai-profile-4.jpg") center;
+  background-size: contain;
 }
 
 #hero:before {
@@ -469,7 +477,7 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 95px;
   display: block;
   background: none;
   border-radius: 0;
@@ -483,6 +491,7 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #050d18;
+  font-size: 16px;
 }
 
 .skills .progress .skill .val {
@@ -1154,21 +1163,40 @@ a.whatsapp:hover {
 }
 
 .icon {
-  width: 28px;
-  height: 28px;
-  margin-right: 5px;
+  width: 31px;
+  height: 31px;
+  margin-right: 7px;
 }
 
 .rust-icon {
-  width: 32px;
-  height: 22px;
-  margin-right: 5px;
+  width: 31px;
+  height: 31px;
+  margin-right: 7px;
 }
 
 .iconw {
-  width: 55px;
-  height: 22px;
-  margin-right: 5px;
+  width: 31px;
+  height: 31px;
+  margin-right: 7px;
+}
+
+.skills ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.skills ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.skills .skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .link:hover {
