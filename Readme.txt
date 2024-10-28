@@ -1,5 +1,5 @@
 Hello, I'm Gustavo and this is my CV
-You can see it on this page: https://gustavocbellanda.github.io/CV
+You can see it on this page: https://bellanda.github.io/dev
 
 <h1>Here are the credits to the authors of the original template</h1>
 Thanks for downloading this template!
