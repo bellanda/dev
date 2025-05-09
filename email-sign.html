@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinatura de Email</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .email-signature {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            max-width: 550px;
+            color: #333;
+            border-collapse: collapse;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #003366;
+            margin-bottom: 4px;
+        }
+
+        .title {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        .company {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .contact-item {
+            margin-bottom: 4px;
+            font-size: 13px;
+        }
+
+        .contact-icon {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #ddd;
+            margin: 10px 0;
+        }
+
+        .logo-container {
+            margin-top: 10px;
+        }
+
+        .logo {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+
+        .social-link {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .name-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .title-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .company-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .disclaimer {
+            font-size: 10px;
+            color: #999;
+            font-style: italic;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body style="padding: 50px;">
+    <table class="email-signature" cellpadding="0" cellspacing="0">
+        <tr>
+            <td style="vertical-align: top;">
+                <a href="https://bellanda.github.io/dev/" target="_blank" class="name-link">
+                    <div class="name">Gustavo C. Bellanda</div>
+                </a>
+                <a href="https://bellanda.github.io/dev/" target="_blank" class="title-link">
+                    <div class="title">Analista de Machine Learning | AI Specialist | Engenheiro de Produção</div>
+                </a>
+                <a href="https://bellanda.github.io/dev/" target="_blank" class="company-link">
+                    <div class="company">HPE Automotores do Brasil</div>
+                </a>
+
+                <div class="divider"></div>
+
+                <div class="contact-item">
+
+                    <img class="contact-icon" src="./assets/img/icons/email.png" alt="Email">
+                    <a href="mailto:gustavobellanda@hpeautos.com.br">gustavobellanda@hpeautos.com.br</a>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-icon" src="./assets/img/icons/email.png" alt="Email Pessoal">
+                    <a href="mailto:bellanda.dev@outlook.com">bellanda.dev@outlook.com</a>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-icon" src="./assets/img/icons/whatsapp.png" alt="WhatsApp">
+                    <a href="https://wa.me/+551697184720" target="_blank">+55 (16) 9718-4720</a>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-icon" src="./assets/img/icons/web-global.png" alt="Website">
+                    <a href="https://bellanda.github.io/dev/" target="_blank">bellanda.github.io/dev</a>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
+                        alt="LinkedIn">
+                    <a href="https://linkedin.com/in/gustavo-bellanda"
+                        target="_blank">linkedin.com/in/gustavo-bellanda</a>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                    <a href="https://github.com/Bellanda" target="_blank">github.com/Bellanda</a>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="logo-container">
+                    <a href="https://www.hpeautos.com.br/" target="_blank">
+                        <img class="logo" src="./assets//img/hpe-logo.png" alt="HPE">
+                    </a>
+                    <a href="https://www.mitsubishimotors.com.br/" target="_blank">
+                        <img class="logo" src="./assets/img/mmc-logo.png" alt="Mitsubishi">
+                    </a>
+                    <a href="https://www.suzukiveiculos.com.br/" target="_blank">
+                        <img class="logo" src="./assets/img/ssz-logo.png" alt="Suzuki">
+                    </a>
+                </div>
+
+                <div class="disclaimer">
+                    AVISO DE CONFIDENCIALIDADE: Esta mensagem é confidencial e dirigida apenas ao destinatário. Se você
+                    a recebeu por engano, por favor, elimine-a e notifique o remetente.
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
